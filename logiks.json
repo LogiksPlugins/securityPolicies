@@ -1,0 +1,29 @@
+
+{
+    "name": "Security Policies",
+    "version": "1.0",
+    "status": "stable",
+    "type": "module",
+    "package":"com.smartinfologiks.securityPolicies",
+    "description": "Plugin for BizSuite2 for Security Policies",
+    "keywords": "logiks,modules,bizsuite2,Policies, securityPolicies, Security",
+    "license": "SILK",
+    "marketid": "",
+    "homepage": "https://github.com/LogiksPlugins/securityPolicies",
+    "bugs": "https://support.smartinfologiks.com",
+    "private": true,
+    "dependencies": {
+        "core": "+4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LogiksPlugins/securityPolicies.git"
+    },
+    "authors": [
+        {
+            "name": "SmartinfoLogiks Team",
+            "email": "admin@smartinfologiks.com",
+            "authorid":"silkadmin"
+        }
+    ]
+}

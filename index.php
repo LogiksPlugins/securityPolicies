@@ -3,7 +3,7 @@ if(!defined('ROOT')) exit('No direct script access allowed');
 
 loadModule("pages");
 
-loadModuleLib("cmsEditor","embed");
+loadVendor("ace");
 
 printPageComponent(false,[
 		"toolbar"=>[
