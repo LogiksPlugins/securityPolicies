@@ -3,14 +3,8 @@ if(!defined('ROOT')) exit('No direct script access allowed');
 
 loadModule("pages");
 
-if(checkVendor("ace")) {
-    loadVendor("ace");
-} elseif(checkModule("cmsEditor")) {
-    loadModuleLib("cmsEditor","embed");
-} else {
-    echo "<h1 align=center>Dependent Module/Vendor Not Found</h1>";
-    return;
-}
+//loadModuleLib("cmsEditor","embed");
+loadVendor("ace");
 
 printPageComponent(false,[
 		"toolbar"=>[
